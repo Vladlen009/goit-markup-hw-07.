@@ -5,10 +5,7 @@
   .work-list {
     display: flex;
   }
-  .work-item:not(:last-child) {
-    margin-right: 30px;
-  }
-  
+ 
   .work-title {
     font-weight: 700;
     font-size: 36px;
@@ -24,6 +21,10 @@
   .work-item {
     position: relative;
     display: flex;
+
+     &:not(:last-child) {
+      margin-right: 30px;
+    }
   }
   
   .work-item-text {

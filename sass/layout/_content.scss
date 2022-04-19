@@ -29,14 +29,15 @@
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
                 0px 1px 1px rgba(0, 0, 0, 0.14), 
                 0px 2px 1px rgba(0, 0, 0, 0.2);
+
+                &:not(:last-child) {
+                  margin-right: 30px;
+                }            
+
     
   }
   
-  .content-item:not(:last-child) {
-    margin-right: 30px;
-  }
-  
-  .content-text {
+ .content-text {
     padding: 30px 0;
   }
   
@@ -83,19 +84,21 @@
     background-color: var(--background-header);
     color: var(--background-icon);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+    background-color: var(--color-hover);
+    color: var(--color-title);
+
+     &.content-team-icon,
+     &.content-team-icon {
+      fill: var(--color-title);
+    }
+  }
   }
   
   .content-team-icon{
     fill: currentColor;
   }
   
-  .content-team-link:hover,
-  .content-team-link:focus {
-    background-color: var(--color-hover);
-    color: var(--color-title);
-  }
   
-  .content-team-link:hover .content-team-icon,
-  .content-team-link:focus .content-team-icon {
-    fill: var(--color-title);
-  }

@@ -28,14 +28,13 @@
     background-color: transparent;
     color: var(--color-title);
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-  
-    .subscribe-input:focus {
+
+    &t:focus {
       outline: none;
       border-color: var(--color-hover);
     }
   
-  /*+*/.subscribe-input::placeholder {
+    &::placeholder {
     display: flex;
     align-items: center;
   
@@ -46,6 +45,8 @@
   
     color: rgba(255, 255, 255, 0.6);
   }
+    }
+  
   
   /*+*/.subscribe-btn {
     display: flex;

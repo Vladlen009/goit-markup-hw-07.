@@ -34,7 +34,16 @@
     background-color: var(--background-header);
     color: var(--background-icon);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
+
+     &:hover,
+     &:focus {
+      border: 1px solid var(--color-hover)
+    } 
+    
+    &:hover .client-icon,
+    &:focus .client-icon {
+      fill: var(--color-hover);
+    }  
   }
   
   .client-item + .client-item {
@@ -45,12 +54,3 @@
    fill: currentColor;
   }
   
-  .client-link:hover,
-  .client-link:focus {
-    border: 1px solid var(--color-hover)
-  }
-  
-  .client-link:hover .client-icon,
-  .client-link:focus .client-icon {
-    fill: var(--color-hover);
-  }
