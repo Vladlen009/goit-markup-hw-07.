@@ -18,7 +18,7 @@
     }
   }
   
-  .header-item {
+  .header-list__item {
     
     font-weight: 500;
     font-size: 14px;
@@ -33,7 +33,7 @@
     }
   }
   
-  .header-link {
+  .header-list__link{
     position: relative;
     display: inline-block;
     color: var(--main-color);
@@ -63,7 +63,7 @@
     margin-left: auto;
   }
   
-  .header-mail {
+  .header-contact__mail{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -88,7 +88,7 @@
     fill: currentColor;
   }
   
-  .header-tel {
+  .header-contact__tel {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
