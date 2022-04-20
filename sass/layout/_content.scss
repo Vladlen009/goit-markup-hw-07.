@@ -20,7 +20,7 @@
     display: flex;
   }
   
-  .content-item {
+  .content-list__item{
     height: 428px;
   
     width: 270px;
@@ -69,11 +69,11 @@
     justify-content: center;
   }
   
-  .content-team-item + .content-team-item {
+  .content-team-list__item + .content-team-list__item {
     margin-left: 10px;
   }
   
-  .content-team-link {
+  .content-team-list__link{
     width: 44px;
     height: 44px;
     display: flex;
