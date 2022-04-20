@@ -543,6 +543,27 @@ img {
   color: var(--color-hover);
 }
 
+.header-list.current {
+  color: var(--color-hover);
+}
+
+.logo-header {
+  display: inline-block;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--color-hover);
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.logo-dark {
+  color: var(--main-color);
+}
+
 .header-list__item {
   font-weight: 500;
   font-size: 14px;
@@ -569,10 +590,10 @@ img {
 }
 
 .current::after {
-  content: '';
   display: block;
   position: absolute;
   bottom: -1px;
+  content: '';
   width: 100%;
   height: 4px;
   background: #2196F3;
@@ -584,7 +605,7 @@ img {
   margin-left: auto;
 }
 
-.header-contact__mail {
+.header-list__mail {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -596,16 +617,16 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-contact__mail:hover, .header-contact__mail:focus {
+.header-list__mail:hover, .header-list__mail:focus {
   color: var(--color-hover);
 }
 
-.header-image-icon {
+.header-list__img-icon {
   margin-right: 10px;
   fill: currentColor;
 }
 
-.header-contact__tel {
+.header-list__tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -617,7 +638,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-contact__tel:hover, .header-contact__tel:focus {
+.header-list__tel:hover, .header-list__tel:focus {
   color: var(--color-hover);
 }
 
