@@ -47,7 +47,7 @@
 
     &:hover,
     &:focus {
-    color: #2196F3;
+    color: var(--color-hover);
   }
   }
 
@@ -60,7 +60,7 @@
 
      &:hover,
      &:focus {
-       color: #2196F3;
+       color: var(--color-hover);
     }
   }
   
