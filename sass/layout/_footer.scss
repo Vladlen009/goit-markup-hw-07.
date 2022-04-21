@@ -21,8 +21,6 @@
   
   
   .footer-link-location {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -35,14 +33,12 @@
 
     &:hover,
     &:focus {
-    color: #2196F3;
+    color: var(--color-hover)
   }
   
   }
   
   .footer-link-tel {
-    font-weight: 400;
-    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -56,8 +52,6 @@
   }
 
   .footer-link-mail {
-    font-weight: 400;
-    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -75,7 +69,7 @@
   }
   
   .footer-socialnetwork {
-    margin-right: 93px;
+    margin-right: auto;
   }
   
   
@@ -87,7 +81,7 @@
     text-transform: uppercase;
     
   
-    color: #FFFFFF;
+    color: var(--color-title);
   
     margin-bottom: 20px;
   }
